@@ -1,0 +1,430 @@
+body
+{
+    font-family:'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    
+}
+header
+{
+    /* position: fixed; */
+    background-color: white;
+    position: fixed;
+     overflow: hidden;
+     width: 100%;
+     z-index: 1
+     
+     
+}
+.navbar
+{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 10px;
+    font-size: larger;
+    font-stretch: extra-expanded;
+    /* background-color: white; */
+     
+    
+    /* z-index: 1; */ 
+    
+   
+}
+.logo img
+{
+    width: 40px;
+    margin-top: 10px;
+    
+}
+.link-right ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+}
+.link-right li a
+{
+    /* justify-self: flex-start; */
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    /* font-size: 16px; */
+}
+.separator
+{
+    flex-grow: 1;
+}
+.link-sec2 ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.link-sec2 a
+{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.nav-icons
+{
+
+    display: flex;
+    /* justify-content: space-around;
+    align-content: center; */
+    margin: 10px;
+}
+.nav-icons > div
+{
+    align-self: center;
+    margin-right: 40px;
+}
+.brand-new
+{
+    display: grid;
+    grid-template-columns: auto;
+    background-image: url(brandNew.webp);
+    background-size: cover;
+    height: 425px;
+    position: relative;
+    
+    top: 61px;
+    
+    /* /* position: relative; */
+    /* top: 60px;  */
+}
+.brand-content
+{
+    margin-top: 120px;
+    margin-left: 290px;
+    font-size: 22px;
+    width: 300px;
+}
+.brand-content button
+{
+    padding: 10px;
+    width: 230px;
+    color: white;
+    background-color: black;
+    font-size: 0fr;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.phone-tv
+{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    padding: 20px;
+    column-gap: 30px;
+}
+.phone
+{
+    text-align: center;
+    background-image: url(phone.webp);
+    background-size: cover;
+}
+.tv
+{
+    text-align: center;
+    background-image: url(tv.webp);
+    background-size: cover;
+}
+.phone-tv > div
+{
+    height: 470px;
+}
+.contect1
+{
+    margin-top: 100px;
+}
+.content2
+{
+    margin-top: 100px;
+    color: white;
+}
+.content2 a
+{
+    text-decoration: none;
+    color: white;
+}
+.contect1 a
+{
+    text-decoration: none;
+    color: red;
+}
+.lap-charger
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+.lap-charger > div
+{
+    height: 450px;
+
+}
+.no-1
+{
+    /* display: flex;
+    justify-content: center; */
+    background-image: url(no-1.webp);
+    background-size: cover;
+}
+.lap-tab
+{
+    /* display: flex; */
+    background-image: url(lapTab.webp);
+    background-size: cover;
+}
+.power
+{
+    background-color: white;
+}
+.best
+{
+    text-align: center;
+    /* position: absolute; */
+    margin-top: 100px;
+}
+.best a{
+    text-decoration: none;
+    color: red;
+}
+.lt
+{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.lt a{
+    text-decoration: none;
+    color: white;
+}
+.power-spec
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.power-spec a{
+    text-decoration: none;
+    color: red;
+}
+.battery img
+{
+    width: 200px;
+    
+}
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 50px;
+    margin-top: 20px;
+    
+}
+.play img
+{
+    width: 600px;
+}
+.slider
+{
+    text-align: center;
+    margin-left: 20px;
+    
+    margin-left: 144px;
+    margin-top: 59px;
+    font-size: 18px;;
+}
+.slider button 
+{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+/* .sec-care
+{
+    display: flex;
+}
+.sec-care div
+{
+    text-align: center;
+    margin: 15px;
+}
+.sec-care img
+{
+    width: 50px;
+} */
+.xioami
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 250px 250px;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+    
+}
+
+.xioami-care
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: white;
+    
+    
+    /* justify-content: center; */
+    
+}
+/* .xioami-care:hover
+{
+    box-shadow: 50px lightblue;
+} */
+.protection
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.protect
+{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.protect img
+{
+    width: 50px;
+}
+.xioami-title
+{
+    text-align: center;
+    margin-top: 150px;
+}
+.service
+{
+    background-color: white;
+    text-align: center;
+    
+}
+.exchange
+{
+    background-color: white;
+    text-align: center;
+}
+.service h1
+{
+    margin-top: 100px;
+}
+.exchange h1
+{
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+}
+.footer
+{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    background-color: black;
+    padding: 20px;
+
+}
+.support
+{
+    margin: 20px;
+
+}
+.support a
+{
+    text-decoration: none;
+    color: rgb(78, 62, 62);
+}
+.shop-learn
+{
+    margin: 20px;
+}
+.shop-learn a
+{
+    text-decoration: none;
+    color: rgb(78, 62, 62);
+}
+.retail
+{
+    margin: 20px;
+}
+.retail a
+{
+    text-decoration: none;
+    color: rgb(78, 62, 62);
+}
+.about
+{
+    margin: 20px;
+}
+.about a
+{
+    text-decoration: none;
+    color: rgb(78, 62, 62);
+}
+.social-icon
+{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.social-icon i
+{
+    width: 50px;
+    
+}
+.follow input
+{
+    padding: 10px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: solid;
+}
+
+.barcode img
+{
+    width: 90px;
+    height: 90px; 
+}
+.barcode{
+    display: flex;
+}
+.downlaod
+{
+    display: flex;
+    border-top: solid white;
+}
+.app
+{
+    border: solid white;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.follow
+{
+    margin: 20px;
+}
+.ind
+{
+    color: white; 
+    margin-left: 600px;
+ 
+}
+.india
+{
+    display: flex;
+}
